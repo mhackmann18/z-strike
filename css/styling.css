@@ -1,0 +1,102 @@
+/** {
+    cursor:url(../Images/reticle.png) 50 45, auto;
+}
+*/
+body {
+    color:white;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    background-color: black;
+}
+#avatar {
+    height: 36px;
+    position: absolute;
+    /* The following code stops the image from being highlighted */
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    left: 650px;
+    top: 370px;
+}
+#light {
+    position: absolute;
+    height: 200px;
+    left: 670px;
+    top: 290px;
+    transform-origin: 0% 49%;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+#starting-gun{
+    position: absolute;
+    height: 7px;
+    left: 668px;
+    top: 385px;
+    transform-origin: 0% 50%;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.zombie0,.zombie1,.zombie2,.zombie3,.zombie4,.zombie5,.zombie6,.zombie7,.zombie8,.zombie9 ,.zombie10,.zombie11,.zombie12,.zombie13,.zombie14,.zombie15,.zombie16,.zombie17,.zombie18,.zombie19{
+    position: absolute;
+    height: 36px;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+#health{
+    font-size: 30px;
+    position: absolute;
+    display: inline;
+    left: 1300px;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    text-shadow: 2px 2px black;
+}
+#ammo{
+    font-size: 30px;
+    position: absolute;
+    display: inline;
+    left: 1100px;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    text-shadow: 2px 2px black;
+}
+#kills{
+    font-size: 30px;
+    position: absolute;
+    display: inline;
+    left: 25px;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    text-shadow: 2px 2px black;
+}
+#gameover{
+    top: -50px;
+    position: absolute;
+    font-size: 700px;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    color: rgb(26, 24, 24);
+}
